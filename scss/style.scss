@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  #body{
+    font: size 1rem;
+    margin: 0;
+    padding: 0.2rem;
+    box-sizing: border-box;
+    align-content: center;
+    
+     
+  }
+  
+  #header{
+    background-color:white !important;
+    display: inline;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    align-content: center;
+   
+    }
+      .avatar{
+        display:grid;
+        justify-content: end;
+  
+      }
+      .search{
+        display:grid;
+        margin: 0.3rem;
+        
+      }
+      .personal{
+        margin: 0.3rem;
+      }
+  .btnLoggin:hover{
+    color:blue;
+    background-color: white;
+  }
+  #main{
+    background-color:rgba(209, 194, 194, 0.2);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    justify-content: center;
+  }
+  .status{
+    font-size: 0.7rem;
+  }
+  .grid-fotos:hover{
+    background-color:white;
+   
+    padding: 1rem;
+  }
+  #nav{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .logo{
+    align-content: left;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .container-login{
+    box-sizing: border-box;
+    padding: 5rem;
+    margin: 5rem;
+  }
+  .loginForm{
+    width: 350px;
+    height: 400px;
+    padding: 2rem;
+    margin: auto;
+    border: solid 1px gainsboro;
+    background-color:white;
+  
+  }
+  #footer{
+    display: grid;
+    grid-template-columns: 4,1fr;
+    justify-content: center;
+  }
+      .footer-container p{
+     
+          margin: 1rem;
+          font-size: 0.5rem;
+          color:grey;
+         
+      }
